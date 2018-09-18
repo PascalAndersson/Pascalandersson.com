@@ -359,7 +359,10 @@
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Static\Assets\stockholm.jpg" />
+    <Content Include="Static\Styles\Footer.css" />
+    <Content Include="Static\Styles\Home.css" />
     <Content Include="Static\Styles\Main.css" />
+    <Content Include="Static\Styles\Navbar.css" />
     <Content Include="Umbraco\Actions\delete.aspx" />
     <Content Include="Umbraco\Actions\editContent.aspx" />
     <Content Include="Umbraco\Actions\preview.aspx" />
@@ -1983,6 +1986,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\_ViewImports.cshtml" />
+    <Content Include="Views\Partials\_Navbar.cshtml" />
+    <Content Include="Views\Partials\_Footer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

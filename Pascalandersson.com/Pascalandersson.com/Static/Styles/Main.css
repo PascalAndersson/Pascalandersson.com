@@ -1,5 +1,38 @@
-﻿.hero {
-    min-height: 500px;
+﻿.page {
+    overflow: auto;
+    width: 100vw;
+}
+
+.hero__container {
+    min-height: 90vh;
     background-position: center;
     background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.hero-header {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.hero-text__wrapper {
+    border-radius: 5px;
+    background-color: white;
+    width: 45%;
+    padding: 20px;
+    position: absolute;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+    .hero-text__wrapper p {
+        font-size: 25px;
+        color: white;
+    }

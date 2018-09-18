@@ -12,5 +12,8 @@ namespace Pascalandersson.com.Models.ViewModels
         {
 
         }
+
+        public string ProfileImageUrl { get; set; }
+
     }
 }

@@ -1,6 +1,20 @@
 ﻿@inherits UmbracoViewPage<Pascalandersson.com.Models.ViewModels.HomeViewModel>
 
-<div class="hero" style="background-image: url('../../Static/Assets/stockholm.jpg')">
+<div class="hero__container" style="background-image: url('@Model.HeroImageUrl')">
+    <div class="hero-text__wrapper">
+            <h1 class="hero-header">@Model.Content.GetPropertyValue("heroTitle")</h1>
+            <p>@Model.Content.GetPropertyValue("heroIntroText")</p>
+        </div>
+    @*<div class="speech-bubble">
+        test
+    </div>*@
+    @*<div class="profile-image__wrapper">
+        <div class="profile-image__outer">
+            <img src="@Model.ProfileImageUrl" class="profile-image__inner" />
+        </div>
+    </div>*@
 </div>
 
-<h1>@Model.HeroImageUrl</h1>
+
+<div class="projectblock-wrapper"></div>
+
