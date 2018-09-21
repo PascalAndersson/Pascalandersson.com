@@ -1,4 +1,8 @@
-﻿.page {
+﻿.body {
+    font-family: 'ProximaNova',sans-serif;
+}
+
+.page {
     overflow: auto;
     width: 100vw;
 }
@@ -12,6 +16,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.hero-image-overlay{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
 }
 
 .hero-header {

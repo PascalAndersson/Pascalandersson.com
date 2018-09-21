@@ -1,26 +1,38 @@
-﻿.navbar {
-    margin-bottom: 0px !important;
-    border-radius: unset !important;
-    padding-right: 70px;
-    padding-left: 70px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: fixed !important;
+﻿.navbar__container {
+    position: fixed;
+    width: 100%;
+    position: fixed;
     z-index: 999;
-    /*background-color: white;*/
-    background-color: black;
-    width: 100vw;
+    color: white;
+    transition: 0.25s ease-in-out;
+}
+
+.scrolled-down {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-column {
+    width: 50%;
 }
 
 .navbar-item {
-    /*color: black;*/
-    color: white;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
 }
 
-.navbar-right a {
-    margin-right: 50px;
+.navbar-item:hover {
+    cursor: pointer;
 }
 
-    .navbar-right a:hover {
-        background-color: unset;
-    }
+.left {
+    float: left;
+    padding-left: 50px;
+}
+
+.right {
+    float: right;
+    padding-right: 50px;
+}
+
