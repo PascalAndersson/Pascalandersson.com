@@ -1,0 +1,38 @@
+﻿.navbar__container {
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    color: white;
+    transition: 0.25s ease-in-out;
+}
+
+.scrolled-down {
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-column {
+    width: 50%;
+}
+
+.navbar-item {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+
+.navbar-item:hover {
+    cursor: pointer;
+}
+
+.left {
+    float: left;
+    padding-left: 50px;
+}
+
+.right {
+    float: right;
+    padding-right: 50px;
+}
+

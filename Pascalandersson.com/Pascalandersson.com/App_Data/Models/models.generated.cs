@@ -19,7 +19,7 @@ using Umbraco.ModelsBuilder;
 using Umbraco.ModelsBuilder.Umbraco;
 
 [assembly: PureLiveAssembly]
-[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "963ef53ae0d08747")]
+[assembly:ModelsBuilderAssembly(PureLive = true, SourceHash = "d91e79ca31e417c4")]
 [assembly:System.Reflection.AssemblyVersion("0.0.0.2")]
 
 namespace Umbraco.Web.PublishedContentModels
@@ -47,6 +47,42 @@ namespace Umbraco.Web.PublishedContentModels
 		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<Home, TValue>> selector)
 		{
 			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Hero image
+		///</summary>
+		[ImplementPropertyType("heroImage")]
+		public IPublishedContent HeroImage
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("heroImage"); }
+		}
+
+		///<summary>
+		/// Hero intro-text
+		///</summary>
+		[ImplementPropertyType("heroIntroText")]
+		public string HeroIntroText
+		{
+			get { return this.GetPropertyValue<string>("heroIntroText"); }
+		}
+
+		///<summary>
+		/// heroTitle
+		///</summary>
+		[ImplementPropertyType("heroTitle")]
+		public string HeroTitle
+		{
+			get { return this.GetPropertyValue<string>("heroTitle"); }
+		}
+
+		///<summary>
+		/// Profile Image
+		///</summary>
+		[ImplementPropertyType("profileImage")]
+		public IPublishedContent ProfileImage
+		{
+			get { return this.GetPropertyValue<IPublishedContent>("profileImage"); }
 		}
 	}
 
