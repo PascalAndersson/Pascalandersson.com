@@ -16,15 +16,16 @@
 }
 
 .navbar-item {
-    font-size: 30px;
+    font-size: 35px;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-bottom: 0px;
+    list-style-type: none;
 }
 
-.navbar-item:hover {
-    cursor: pointer;
-}
+    .navbar-item:hover {
+        cursor: pointer;
+    }
 
 .left {
     float: left;
@@ -33,6 +34,43 @@
 
 .right {
     float: right;
-    padding-right: 50px;
+    padding-right: 15px;
 }
 
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    /*top: 0;*/
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .sidenav .navbar-items {
+        padding: 60px 30px 30px 30px;
+    }
+
+    .sidenav .navbar-item {
+        border-bottom: 1px solid white;
+    }
+
+    .navbar-item a{
+        color: white;
+    }
+
+.active {
+    width: 400px;
+}
