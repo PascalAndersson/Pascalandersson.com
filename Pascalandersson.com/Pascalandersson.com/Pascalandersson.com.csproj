@@ -401,6 +401,9 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Static\Assets\Icons\if_api-code-window_532742.png" />
+    <Content Include="Static\Assets\Icons\if_database-gear_532734.png" />
+    <Content Include="Static\Assets\Icons\if_developer-api-coding-screen_532707.png" />
     <Content Include="Static\Assets\stockholm.jpg" />
     <Content Include="Static\Scripts\JQuery\jquery.js" />
     <Content Include="Static\Scripts\Bootstrap\bootstrap.bundle.js" />
