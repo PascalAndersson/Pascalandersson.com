@@ -24,3 +24,14 @@
 
 # Ignore the Models Builder models out of date flag
 **/App_Data/Models/ood.flag
+
+obj
+_ReSharper.*
+*.csproj.user
+*.resharper.user
+*.resharper
+*.suo
+*.cache
+*.Publish.xml
+~$* 
+App_Data
