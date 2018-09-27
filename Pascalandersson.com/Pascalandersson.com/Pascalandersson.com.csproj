@@ -421,6 +421,7 @@
     <Content Include="Static\Styles\Home.css" />
     <Content Include="Static\Styles\Main.css" />
     <Content Include="Static\Styles\Navbar.css" />
+    <Content Include="Static\Styles\Skills.css" />
     <Content Include="Umbraco\Actions\delete.aspx" />
     <Content Include="Umbraco\Actions\editContent.aspx" />
     <Content Include="Umbraco\Actions\preview.aspx" />
@@ -1814,9 +1815,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Helpers\UrlHelpers.cs" />
+    <Compile Include="Helpers\PageHelpers.cs" />
     <Compile Include="Models\ViewModels\BaseViewModel.cs" />
     <Compile Include="Models\ViewModels\HomeViewModel.cs" />
+    <Compile Include="Models\ViewModels\SkillsViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -2067,6 +2069,7 @@
     <Content Include="Static\Scripts\Bootstrap\bootstrap.bundle.min.js.map" />
     <Content Include="Static\Scripts\Bootstrap\bootstrap.js.map" />
     <Content Include="Static\Scripts\Bootstrap\bootstrap.min.js.map" />
+    <Content Include="Views\Partials\_Skills.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

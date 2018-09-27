@@ -1,4 +1,5 @@
 ﻿using Pascalandersson.com.Helpers;
+using Pascalandersson.com.Models;
 using Pascalandersson.com.Models.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -19,9 +20,38 @@ namespace Pascalandersson.com.Controllers
             var model = new HomeViewModel()
             {
                 HeroImageUrl = CurrentPage.GetProperty("heroImage").HasValue ? CurrentPage.GetPropertyValue<IPublishedContent>("heroImage").Url : string.Empty,
-                ProfileImageUrl = CurrentPage.GetProperty("profileImage").HasValue ? CurrentPage.GetPropertyValue<IPublishedContent>("profileImage").Url : string.Empty
+                ProfileImageUrl = CurrentPage.GetProperty("profileImage").HasValue ? CurrentPage.GetPropertyValue<IPublishedContent>("profileImage").Url : string.Empty,
             };
             return View(model);
+        }
+
+        public PartialViewResult LoadSkills()
+        {
+            var model = new SkillsViewModel()
+            {
+                Header = PageHelpers.GetChildPage("SkillsList", CurrentPage).Name,
+                Skills = ConvertSkillsToListItem()
+            };
+            return PartialView("_Skills", model);
+        }
+
+        public List<SkillsItem> ConvertSkillsToListItem()
+        {
+            List<SkillsItem> skills = new List<SkillsItem>();
+
+            var skillsListDocumentType = PageHelpers.GetChildPage("SkillsList", CurrentPage);
+
+            foreach (var item in skillsListDocumentType.Children)
+            {
+                skills.Add(new SkillsItem
+                {
+                    Name = item.Name,
+                    ImageUrl = item.GetProperty("image").HasValue ? item.GetPropertyValue<IPublishedContent>("image").Url : string.Empty,
+                    Description = item.GetProperty("image").HasValue ? item.GetPropertyValue("description").ToString() : string.Empty,
+                });
+            }
+
+            return skills;
         }
     }
 }

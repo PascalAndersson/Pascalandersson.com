@@ -1,3 +1,7 @@
+C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\umbraco.editorControls.dll
+C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\umbraco.providers.dll
+C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\obj\Debug\Pascalandersson.com.csproj.CopyComplete
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\App_Data\NuGetBackup\20180917-134733\bin\AutoMapper.Net4.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\Pascalandersson.com.dll.config
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\Pascalandersson.com.dll
@@ -13,7 +17,6 @@ C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\P
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\roslyn\Microsoft.CodeAnalysis.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
@@ -104,15 +107,12 @@ C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\P
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\Umbraco.Core.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\umbraco.DataLayer.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\umbraco.dll
-C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\umbraco.editorControls.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\umbraco.MacroEngines.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\Umbraco.ModelsBuilder.dll
-C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\umbraco.providers.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\Umbraco.Web.UI.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\UmbracoExamine.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\obj\Debug\Pascalandersson.com.csprojAssemblyReference.cache
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\obj\Debug\Pascalandersson.com.csproj.CoreCompileInputs.cache
-C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\obj\Debug\Pascalandersson.com.csproj.CopyComplete
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\obj\Debug\Pascalandersson.com.dll
 C:\Users\paandersson\Documents\dev\own\Pascalandersson.com\Pascalandersson.com\Pascalandersson.com\obj\Debug\Pascalandersson.com.pdb

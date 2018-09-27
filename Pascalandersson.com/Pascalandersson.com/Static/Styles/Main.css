@@ -1,5 +1,6 @@
-﻿.body {
-    font-family: 'ProximaNova',sans-serif;
+﻿body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 
 .page {
@@ -46,3 +47,19 @@
         font-size: 25px;
         color: white;
     }
+
+.header {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+.center  {
+    text-align: center;
+}
+
+.block {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}

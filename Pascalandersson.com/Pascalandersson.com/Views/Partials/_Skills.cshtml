@@ -1,0 +1,23 @@
+﻿@model Pascalandersson.com.Models.ViewModels.SkillsViewModel
+
+@{
+    string test = string.Empty;
+}
+
+<div class="container block">
+    <h1 class="header center">@Model.Header</h1>
+        <div class="row">
+            @foreach (var skill in Model.Skills)
+            {
+                <div class="col-md-4">
+                    <div class="skills-item__wrapper">
+                        <img class="skills-item-image" src="@skill.ImageUrl" />
+                        <div class="skills-item-text__wrapper">
+                            <p class="skills-title">@skill.Name</p>
+                            <p class="skills-description">@skill.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+    </div>
+</div>
